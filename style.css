@@ -1,0 +1,29 @@
+body {
+    padding-top: 70px;
+  }
+  page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+  page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  @media print {
+    body, page {
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
